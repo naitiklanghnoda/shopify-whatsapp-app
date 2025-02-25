@@ -1,0 +1,7 @@
+services:
+  - name: whatsapp-shopify-bot
+    type: web
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    plan: free
